@@ -1,0 +1,1 @@
+Tehtävän aikana tulee ladattua express sekä body-parser, josta ainakin expressin lataamisen yhteydessä tulee mukana tiedosto nimeltään node_modules, jota en puskenut githubiin, koska se on liian iso. Suosittelen lataamaan terminaalin kautta molemmat ennen testaamista.
