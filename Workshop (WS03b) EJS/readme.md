@@ -1,4 +1,5 @@
 Tein tehtävät muuttaen aiemman tehtävät koodia, joten joidenkin tehtävien syntaxit ja routet ovat saattaneet muuttua eikä näy lopullisessa versiossa. Voin toki selittää mitä on tehty.
+
 **Tehtävä 1**
 Terminaaliin **npm init -y** sekä **npm install express ejs**  
 **Huomio** npm install express ejs luo node modules tiedoston, jota ei kannata puskea githubiin. 
