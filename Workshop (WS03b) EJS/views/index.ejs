@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EJS</title>
+</head>
+<body>
+    <%- include('partials/_header') %>
+
+<h1><%= message %></h1>
+<ul>
+  <% items.forEach(item => { %>
+    <li><%= item %></li>
+  <% }) %>
+</ul>
+<% if (isLoggedIn) { %>
+    <p>Tervetuloa takaisin, käyttäjä!</p>
+  <% } else { %>
+    <p>Kirjaudu sisään.</p>
+  <% } %>
+  <h2>Käyttäjä lista</h2>
+<ul>
+  <% users.forEach(user => { %>
+    <li><%= user.name %> - <%= user.age %> years old</li>
+  <% }) %>
+</ul>
+
+<%- include('partials/_footer') %>
+
+</body>
+</html>
